@@ -1,0 +1,8 @@
+E E E E E E E E E E E E E E E E
+E 0 F A W E E E E E W W A A 5 E
+E 3 F 1 W E E E E E W W A A A E
+E E E E W E E E E E W 4 A A A E
+E E E E W E E E E E W E E E E E
+E E E E W E E E E E W E E E E E
+E E E E 2 W W W W W W E E E E E
+E E E E E E E E E E E E E E E E
