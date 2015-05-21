@@ -10,6 +10,7 @@ def analyze(design):
     # position, abilities = next_state # or None if character dies
     # i, j = position
 
+    #BFS
     prev = {init: None}
     q = [init]
     while q:
@@ -37,13 +38,7 @@ def inspect((i, j), draw_line):
     pos = (i, j)
     prev = ANALYSIS['prev']
 
-    # for state in points[pos]:
-    #     prev_state = prev[state]
-    #     curr_state = state
-    #     while prev_state:
-    #         draw_line(curr_state[0], prev_state[0])
-    #         curr_state = prev_state
-    #         prev_state = prev[prev_state]
+
     for state in prev:
         if state[0] == pos:
             prev_state = prev[state]
